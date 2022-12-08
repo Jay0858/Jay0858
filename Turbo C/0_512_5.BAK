@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,n,a=0.5;
+	clrscr();
+	printf("enter the value:");
+	scanf("%d",&n);
+	printf("%d ",a);
+	for(i=0.5;i<=n;i++)
+	{
+		a=a*i;
+		printf("%d ",a);
+	}
+	getch();
+}
