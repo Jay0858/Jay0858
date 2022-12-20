@@ -22,13 +22,13 @@ String strone = 'Female';
 
 
 
-output:
-false
-hello
-data number 10
-my name is jay
-first number is 150
-surname is sarvaiya
-double data 50.21
-my name is jay sarvaiya
-first 10 & second number 150 & first name jay & second name sarvaiya & double data 50.21
+// output:
+// false
+// hello
+// data number 10
+// my name is jay
+// first number is 150
+// surname is sarvaiya
+// double data 50.21
+// my name is jay sarvaiya
+// first 10 & second number 150 & first name jay & second name sarvaiya & double data 50.21

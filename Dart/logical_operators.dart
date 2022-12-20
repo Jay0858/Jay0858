@@ -17,6 +17,6 @@ void main() {
 }
 
 
-output:
-Using And Operator false
-Using Or Operator true
+// output:
+// Using And Operator false
+// Using Or Operator true

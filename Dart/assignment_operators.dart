@@ -16,5 +16,5 @@ void main() {
 
 
 
-output:
-Eqaul to 1500
+// output:
+// Eqaul to 1500

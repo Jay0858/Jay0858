@@ -20,9 +20,9 @@ print('Modulus is ${numone%numtwo}');
 
 
 
-output:
-Addition is 70
-Subtraction is 30
-Multiply is 1000
-Division is 2.5
-Modulus is 10
+// output:
+// Addition is 70
+// Subtraction is 30
+// Multiply is 1000
+// Division is 2.5
+// Modulus is 10

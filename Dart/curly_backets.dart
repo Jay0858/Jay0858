@@ -8,8 +8,8 @@ int dataone = 20;
 
 
 
-output:
-sum is 50
+// output:
+// sum is 50
 
 
 

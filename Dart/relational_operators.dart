@@ -21,10 +21,10 @@ print('Not Equal to is ${numone!=numtwo}');
 }
 
 
-output:
-Greater than is false
-Less than is true
-Greater than or equal to is false
-less than equal to is true
-Equal to is false
-Not Equal to is true
+// output:
+// Greater than is false
+// Less than is true
+// Greater than or equal to is false
+// less than equal to is true
+// Equal to is false
+// Not Equal to is true
