@@ -1,5 +1,3 @@
-
-
 //multilevel polymerphism
 /*class Laptop {
   String? name;
