@@ -1,56 +1,35 @@
-class College {
-  // Declaring variables
-  String? name;
-  int? rollNo;
-
-// Overridden Method
-  void stuDetails(name, rollNo) {
-    this.name = name;
-    this.rollNo = rollNo;
-  }
-
-  void display() {
-    print("The student name:${name}");
-    print("The student rollNo: ${rollNo}");
-    print("The result is passed");
+// Class Car (Interface)
+class Car {
+  void printData() {
+    print("Audi");
   }
 }
 
-class Student extends College {
-// Overriding Method
-  // void stuDetails(name, rollno) {
-  //   this.name = name;
-  //   this.rollNo = rollno;
-  // }
-
-  // void show() {
-  //   print("The student name:${name}");
-  //   print("The student rollNo: ${rollNo}");
-  //   print("The result is failed");
-  // }
-
- @override
-   void display() {
-     // TODO: implement display
-     super.display();
-   }
-
-@override
-  void stuDetails(name, rollNo) {
-    // TODO: implement stuDetails
-    super.stuDetails(name, rollNo);
+class Car2 {
+  void setData() {
+    print("Audi");
   }
+}
+
+// Class ShowRoom implementing Car
+class ShowRoom implements Car, Car2 {
+  @override
+  void printData() {
+    print("swift");
+  }
+
+  @override
+  void setData() {
+  print("eeco");
+}
 }
 
 void main() {
-//Creating object of subclass
-  Student st = Student();
-  st.stuDetails("Joseph", 101);
-  // st.show();
-  st.display();
+  // Creating Object
+  // of the class ShowRoom
+  ShowRoom showRoom = ShowRoom();
 
-// Creating an object of superclass
-  // College cg = College();
-  // cg.stuDetails("Jason", 102);
-  // cg.display();
+  // Calling method
+  // (After Implementation )
+  showRoom.printData();
 }
