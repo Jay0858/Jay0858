@@ -1,35 +1,25 @@
-// Class Car (Interface)
-class Car {
-  void printData() {
-    print("Audi");
-  }
+// Understanding Abstract class in Dart
+// Creating Abstract Class
+abstract class Man {
+  // Creating Abstract Methods
+  void say();
+  void write();
 }
 
-class Car2 {
-  void setData() {
-    print("Audi");
-  }
-}
-
-// Class ShowRoom implementing Car
-class ShowRoom implements Car, Car2 {
+class Boy extends Man {
   @override
-  void printData() {
-    print("swift");
+  void say() {
+    print("Yo Boy!!");
   }
 
   @override
-  void setData() {
-  print("eeco");
-}
+  void write() {
+    print("Boy is writing!!");
+  }
 }
 
-void main() {
-  // Creating Object
-  // of the class ShowRoom
-  ShowRoom showRoom = ShowRoom();
-
-  // Calling method
-  // (After Implementation )
-  showRoom.printData();
+main() {
+  Boy boy = Boy();
+  boy.say();
+  boy.write();
 }
