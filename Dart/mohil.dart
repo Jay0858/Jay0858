@@ -1,25 +1,14 @@
-// Understanding Abstract class in Dart
-// Creating Abstract Class
-abstract class Man {
-  // Creating Abstract Methods
-  void say();
-  void write();
-}
+void main() {
+  Map student = {
+    'name': 'tom',
+    'age': 23,
+  };
 
-class Boy extends Man {
-  @override
-  void say() {
-    print("Yo Boy!!");
-  }
+  // student['course'] = 'B.tech';
 
-  @override
-  void write() {
-    print("Boy is writing!!");
-  }
-}
+  student["age"] = 50;
+  student["time"] = 123;
 
-main() {
-  Boy boy = Boy();
-  boy.say();
-  boy.write();
+  
+  print(student);
 }

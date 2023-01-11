@@ -32,11 +32,14 @@ void main() {
   print("Take of List : ${listOne.take(3)}");
   print("Take While of List : ${listOne.takeWhile((list) => list < 3)}");
   print("Take While not equlto : ${listOne.takeWhile((list) => list != 2)}");
-
-/*(listOne.shuffle());
+  print("Where of Lessthen list : ${listOne.where((list) => list < 3)}");
+  print("Where of Geterthen list : ${listOne.where((list) => list > 2)}");
+  print("AS Map of List : ${listOne.asMap()}");
+(listOne.shuffle());
   print("Shuffle of List : ${listOne}");
-listOne.replaceRange(0, 3, [1, 2,3]);
- print("Replace Range of List : ${listOne}");
-print("Sublist of List : ${listOne.sublist(0, 2)}");
-*/
+  listOne.replaceRange(0, 3, [1, 2, 3]);
+  print("Replace Range of List : ${listOne}");
+  print("Sublist of List : ${listOne.sublist(0, 2)}");
+  (listOne.clear());
+  print("Clear of List : ${listOne}");
 }
