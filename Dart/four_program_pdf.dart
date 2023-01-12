@@ -1,13 +1,17 @@
-
-
-void main() {
-  List<String> listOne = ['A', 'T', 'D', 'B'];
-  listOne.sort();
-  print("Shorting List: ${listOne}");
+class Alphabetical {
+  void Disp() {
+    var value = ['w', 'e', 'b', 'm', 'a', 's', 't', 'e', 'r'];
+    print(value);
+    value.sort();
+    print(value);
+  }
 }
 
+void main() {
+  Alphabetical alphabetical = Alphabetical();
 
-
+  alphabetical.Disp();
+}
 
 
 

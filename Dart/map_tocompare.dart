@@ -12,6 +12,8 @@ void main() {
   print("Not Empty: ${student.isNotEmpty}");
   print("Keys: ${student.keys}");
   print("Length: ${student.length}");
+  student.addAll({'email': 'jaysarvaiya@gmail.com', 'Mo': 7383908380});
+
   print("Values: ${student.values}");
-  student.addAll({6: 'Jupiter', 7: 'Saturn'});
 }
+ 
