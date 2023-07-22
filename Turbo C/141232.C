@@ -9,7 +9,7 @@ void main()
 	for(i=1;i<=n;i++)
 	{
 		printf("%d ",a*i);
-		a=a+a;
+		a=a*2;
 	}
 	getch();
 }
